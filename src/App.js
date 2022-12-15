@@ -6,7 +6,9 @@ import './styles.css'
 
 function App() {
   return (<>
-    <Sidebar />
+    <div className="main" >
+      <Sidebar />
+    </div>
   </>);
 }
 
