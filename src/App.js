@@ -11,10 +11,10 @@ function App() {
   return (<>
     <div className="main" >
       <Sidebar />
-      <Section sectionClass="reviews" sectionTitle="Reviews"/>
-      <Section sectionClass="average-rating" sectionTitle="Average Rating"/>
-      <SentimentAnalysis />
-      <WebsiteVisitors />
+      <Section sectionClass="reviews" sectionTitle="Reviews" num="1,281" />
+      <Section num="4.6" sectionClass="average-rating" sectionTitle="Average Rating"/>
+      <SentimentAnalysis num1="960" num2="122" num3="321" />
+      <WebsiteVisitors num="821" />
     </div>
   </>);
 }
