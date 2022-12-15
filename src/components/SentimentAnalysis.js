@@ -1,7 +1,7 @@
 function SentimentAnalysis(props){
     return (<>
         <div className="sentiment-analysis top-section">
-            <p>Sentiment Analysis</p>
+            <p className="section-heading">Sentiment Analysis</p>
             <div className="sentiment-analysis-nums-container" >
                 <h3 className="small-num">{props.num1}</h3>
                 <h3 className="small-num">{props.num2}</h3>

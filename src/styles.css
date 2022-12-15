@@ -1,5 +1,6 @@
 :root {
     --background-color: lightgray;
+    --dark-gray-color: rgb(150, 150, 150);
     --a-hover-color: rgb(100, 100, 100);
 }
 
@@ -14,6 +15,9 @@
     grid-template-rows: 40vh 60vh;
 }
 
+.section-heading {
+    margin-bottom: 0.5rem;
+}
 
 /* Sidebar */
 
@@ -69,13 +73,26 @@ a:hover {
 
 
 /* Website Visitors */
+.website-visitors {
+    grid-column: 2/5;
+    background-color: var(--background-color);
+    /* what is margin % based on? */
+    margin: 0 3.333% 3.333% 0;
+    padding: 0 1.6777% 2% 1.6777%;
+}
 
+.website-visitors-inner-rect {
+    background: var(--dark-gray-color);
+    margin: 0 3% 3% 3%;
+    height: 35vh;
+}
 
 
 /* numbers */
 
 .big-num {
     font-size: 3vw;
+    margin-top: 0;
 }
 
 .small-num {
